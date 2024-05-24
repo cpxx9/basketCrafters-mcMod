@@ -46,6 +46,7 @@ public class BasketCraftersMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModItems.BASKETBALL);
+            event.accept(ModItems.HOOP);
         }
     }
 
