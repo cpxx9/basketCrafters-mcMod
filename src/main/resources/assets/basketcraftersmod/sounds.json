@@ -1,0 +1,18 @@
+{
+  "basketballhitwall": {
+    "sounds": [
+      {
+        "name": "basketcraftersmod:basketballhitwall",
+        "stream": true
+      }
+    ]
+  },
+  "basketball_throw": {
+    "sounds": [
+      {
+        "name": "basketcraftersmod:basketball_throw",
+        "stream": true
+      }
+    ]
+  }
+}

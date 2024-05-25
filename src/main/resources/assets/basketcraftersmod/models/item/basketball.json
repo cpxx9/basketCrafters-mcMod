@@ -1,6 +1,45 @@
 {
-  "parent": "item/generated",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "basketcraftersmod:models/item/basketball.obj",
   "textures": {
-    "layer0": "basketcraftersmod:item/basketball"
+    "texture0": "basketball",
+    "particle": "basketball"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [-0.7, -2, -2.5]
+    },
+    "thirdperson_lefthand": {
+      "translation": [-0.7, -2, -2.5]
+    },
+    "firstperson_righthand": {
+      "rotation": [25, 25, -45],
+      "translation": [1, 0, -4],
+      "scale": [1, 1, 1]
+    },
+    "firstperson_lefthand": {
+      "rotation": [25, 25, -45],
+      "translation": [1, 0, -4],
+      "scale": [1, 1, 1]
+    },
+    "ground": {
+      "rotation": [25, 0, -25],
+      "translation": [0, 1, 0]
+    },
+    "gui": {
+      "rotation": [75, 45, -75],
+      "scale": [2, 2, 2]
+    },
+    "head": {
+      "translation": [0, 0, 0],
+      "scale": [3.25, 3.25, 3.25]
+    },
+    "fixed": {
+      "rotation": [15, 60, 20],
+      "translation": [0, 0, 2],
+      "scale": [2.5, 2.5, 2.5]
+    }
   }
 }
