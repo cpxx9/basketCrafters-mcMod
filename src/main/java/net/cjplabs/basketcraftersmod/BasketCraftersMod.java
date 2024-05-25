@@ -1,6 +1,7 @@
 package net.cjplabs.basketcraftersmod;
 
 import com.mojang.logging.LogUtils;
+import net.cjplabs.basketcraftersmod.item.ModCreativeModeTabs;
 import net.cjplabs.basketcraftersmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -26,6 +27,7 @@ public class BasketCraftersMod {
     public BasketCraftersMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading

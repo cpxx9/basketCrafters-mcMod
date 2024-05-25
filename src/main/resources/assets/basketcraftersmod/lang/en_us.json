@@ -1,4 +1,6 @@
 {
   "item.basketcraftersmod.basketball": "Basketball",
-  "item.basketcraftersmod.hoop": "Hoop"
+  "item.basketcraftersmod.hoop": "Hoop",
+
+  "creativetab.basketcrafters_tab": "Basketcrafters Tab"
 }
